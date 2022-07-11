@@ -1,0 +1,122 @@
+body,ul,ol,li,dl,dd,p,h1,h2,h3,form {
+	margin: 0;
+	padding: 0
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: rgba(0,0,0,0.125);
+}
+
+body {
+	color: #444;
+    text-align: center;
+	font: 400 16px/1.7;
+}
+
+.info {
+    text-align: center;
+    margin: 30px 0 20px;
+    font-size: 28px;
+    line-height: 50px;
+}
+
+.main {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: left;
+    line-height: 25px;
+}
+
+.boxs {
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.box {
+    flex: 0 0 33.33%;
+}
+
+.card {
+	border: 1px solid rgba(0,0,0,0.125);
+	border-radius: 0.25rem;
+	margin: 10px 15px;
+}
+
+.title {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 15px;
+}
+
+.domain {
+    margin: 0;
+    font-weight: 700;
+    font-size: 17px;
+    flex: 0 0 75%;
+}
+
+.price {
+    flex: 0 0 25%;
+    text-align: right;
+}
+
+.desc {
+    display: flex;
+    margin: 15px;
+}
+
+.block {
+    display: inline-block;
+}
+
+.default,
+.default a {
+    color: red;
+}
+
+.reserved {
+    color: orange;
+}
+
+.onsale {
+    color: green;
+}
+
+.sold {
+	color: gray;
+}
+
+.contact a img,
+.links a img,
+.footer a img {
+    margin: 1px; 
+}
+
+.contact,
+.links {
+    margin-top: 20px;
+}
+
+.footer {
+    margin: 20px 0;
+}
+
+@media(max-width:767px) {
+	.boxs .box {
+		flex: 0 0 100%;
+	}
+}

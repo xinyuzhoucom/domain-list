@@ -1,0 +1,78 @@
+# 说明:
+# 1、未注释的都是必填项
+# 2、英文 : 后要空一格, domains 和 tips 里的 - 代表分组, 不可省略
+
+domain: dai.wiki
+title: 懒人米表
+#donate: 可选, 打赏链接, 完整的可访问链接
+
+# 对应四种颜色, 尽量选择 #123456 这种样式
+color:
+  default: red
+  reserved: orange
+  onsale: green
+  sold: gray
+
+# true: 标签模式, false: 简单模式
+badge: false
+
+# 域名列表
+# url 可选, domain 超链接地址, 比如议价的话可跳转到自定义的报价页面
+# price 可选，但建议都写上，自定义内容，不一定是数字
+# 非卖品
+reserved-domains:
+  - domain: dai.im
+    url: http://dai.im
+    description: 博客
+    price: 非卖品
+  - domain: dai.wiki
+    url: http://dai.wiki
+    description: 米表
+    price: 非卖品
+  - domain: ps.sd
+    description: 敬请期待
+    price: 非卖品
+# 出售中
+onsale-domains:
+  - domain: a.com
+    description: 描述内容
+    price: $888
+  - domain: b.com
+    description: 描述内容
+    price: 议价
+  - domain: c.com
+    description: 描述内容
+    price: ￥666
+  - domain: d.com
+    description: 描述内容
+    price: 自定义
+# 已售出
+sold-domains:
+  - domain: e.com
+    description: 暂无
+    price: 已出售
+
+# 其他说明
+# url: 可选, title 超链接地址
+# price: 可选，自定义内容，不一定是数字
+tips:
+  - title: 友链说明
+    description: 申请加入米表联盟请发送邮件
+
+# 联系方式
+# url 可选, 超链接地址
+contacts:
+  - type: QQ
+    text: 88888888
+  - type: Email
+    text: xxx@xxx.com
+    url: mailto:xxx@xxx.com
+  - type: 微信
+    text: wx88888888
+
+# 米表联盟
+links:
+  - url: http://dai.wiki
+    description: 懒人米表
+  - url: http://other.com
+    description: 其他米表
