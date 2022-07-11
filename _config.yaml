@@ -58,6 +58,9 @@ sold-domains:
 tips:
   - title: 友链说明
     description: 申请加入米表联盟请发送邮件
+  - title: 非主流域名
+    url: https://qm.qq.com/cgi-bin/qm/qr?k=-HzAlB_VSbuFeQL8ZE-2Kh0Dp2g8MadE&jump_from=webapi
+    description: QQ交流群：700331
 
 # 联系方式
 # url 可选, 超链接地址
