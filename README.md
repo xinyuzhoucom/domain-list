@@ -11,9 +11,8 @@
     - 更改一下`img`文件夹里的图片和`_config.yaml`配置文件，并将更新后的文件送到仓库。
     - 最后开启`Github Pages`并绑定自定义域名，过一会就会自动生效。
 - 使用 **Vercel** 部署（**推荐**）
-    [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/newbill/domain-list)
     - 去 [Vercel](https://vercel.com/) 创建个`Vercel`账号，推荐选择`Github`登录。
-    - 点击上面的快速部署按钮后，然后去`Github`拉取`Vercel`为我们创建的仓库。
+    - 点击[快速部署](https://vercel.com/new/clone?repository-url=https://github.com/newbill/domain-list)，然后去`Github`拉取`Vercel`为我们创建的仓库。
     - 更改一下`img`文件夹里的图片和`_config.yaml`配置文件，并将更新后的文件送到仓库。
     - 喝杯咖啡，`Vercel`会自动拉取并部署，过一会就会生效了。
 
@@ -60,4 +59,5 @@
 
 ### License
 [MIT](https://github.com/newbill/domain-list/blob/main/LICENSE)
+
 © 2022 - present [NEWBILL](https://github.com/newbill)
