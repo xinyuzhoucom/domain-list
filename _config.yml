@@ -13,7 +13,7 @@ color:
   onsale: green
   sold: gray
 
-# true: 标签模式, false: 简单模式
+# true: 标签模式, false: 文本模式
 badge: false
 
 # 域名列表
