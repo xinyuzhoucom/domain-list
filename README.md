@@ -19,6 +19,11 @@
 ## 详细步骤（选看）
 [点此查看](https://dai.im/article/mibiao)
 
+## 两种效果
+
+- [小标签](https://dai.wiki)
+- [纯文本](https://mibiao.vercel.app/)
+
 ## License
 [MIT](https://github.com/newbill/domain-list/blob/main/LICENSE)
 
