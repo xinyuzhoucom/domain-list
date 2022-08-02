@@ -2,7 +2,7 @@
 # 1、未注释的都是必填项
 # 2、英文 : 后要空一格, domains 和 tips 里的 - 代表分组, 不可省略
 
-domain: dai.wiki
+domain: mibiao.vercel.app
 title: 懒人米表
 #donate: 可选, 打赏链接, 完整的可访问链接
 
@@ -24,13 +24,6 @@ reserved-domains:
   - domain: dai.im
     url: http://dai.im
     description: 博客
-    price: 非卖品
-  - domain: dai.wiki
-    url: http://dai.wiki
-    description: 米表
-    price: 非卖品
-  - domain: ps.sd
-    description: 敬请期待
     price: 非卖品
 # 出售中
 onsale-domains:
@@ -58,9 +51,6 @@ sold-domains:
 tips:
   - title: 友链说明
     description: 申请加入米表联盟请发送邮件
-  - title: 非主流域名
-    url: https://qm.qq.com/cgi-bin/qm/qr?k=-HzAlB_VSbuFeQL8ZE-2Kh0Dp2g8MadE&jump_from=webapi
-    description: QQ交流群：700331
 
 # 联系方式
 # url 可选, 超链接地址
@@ -75,7 +65,5 @@ contacts:
 
 # 米表联盟
 links:
-  - url: http://dai.wiki
+  - url: http://mibiao.vercel.app
     description: 懒人米表
-  - url: http://other.com
-    description: 其他米表
