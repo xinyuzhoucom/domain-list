@@ -2,12 +2,12 @@
 > 懒人不生产代码，只是代码的搬运工，感谢各位大佬提供的思路。
 
 ## 灵感来源
-- 闲逛`Github`发现了垃圾佬的[简易米表](https://github.com/naiba/domain-portfolio)，觉得这种借助`Github Pages`的方式很不错，同时又收到了[NGY](http://n.gy)分享的他的米表源码，后来发现应该来自[巧克力-非主流](https://mb.admin.pet/)，于是将以上结合了一下。又加入了自己的一些设计元素，经过了自己的一些修改和调整，于是[懒人米表](http://dai.wiki)诞生了。最后更进一步，也支持`Vercel`部署了。
+- 闲逛`Github`发现了垃圾佬的[简易米表](https://github.com/naiba/domain-portfolio)，觉得这种借助`Github Pages`的方式很不错，同时又收到了[飞飞](http://n.gy)分享的他的米表源码，后来发现应该来自[巧克力-非主流](https://mb.admin.pet/)，于是将以上结合了一下。又加入了自己的一些设计元素，经过了自己的一些修改和调整，于是[懒人米表](http://dai.wiki)诞生了。最后更进一步，也支持`Vercel`部署了。
 
 ## 使用方式
 > 不会使用`Github`的朋友，可以先通读详细步骤里的内容。
 - 使用 **Github Pages** 部署
-    - `fork`本项目到自己仓库，拉取仓库到本地。
+    - `fork`[本项目](https://github.com/newbill/domain-list)到自己仓库，拉取仓库到本地。
     - 更改一下`img`文件夹里的图片和`_config.yaml`配置文件，并将更新后的文件送到仓库。
     - 最后开启`Github Pages`并绑定自定义域名，过一会就会自动生效。
 - 使用 **Vercel** 部署（**推荐**）
