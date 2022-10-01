@@ -21,27 +21,27 @@ badge: false
 # price 可选，但建议都写上，自定义内容，不一定是数字
 # 非卖品
 reserved-domains:
-  - domain: dai.im
-    url: http://dai.im
-    description: 博客
+  - domain: domain.kids
+    url: https://domain.kids
+    description: 域名
     price: 非卖品
 # 出售中
 onsale-domains:
-  - domain: a.com
+  - domain: vip.kids
     description: 描述内容
     price: $888
-  - domain: b.com
+  - domain: top.kids
     description: 描述内容
     price: 议价
-  - domain: c.com
+  - domain: dns.kids
     description: 描述内容
     price: ￥666
-  - domain: d.com
+  - domain: life.kids
     description: 描述内容
     price: 自定义
 # 已售出
 sold-domains:
-  - domain: e.com
+  - domain: qifei.xyz
     description: 暂无
     price: 已出售
 
