@@ -2,7 +2,7 @@
 # 1、未注释的都是必填项
 # 2、英文 : 后要空一格, domains 和 tips 里的 - 代表分组, 不可省略
 
-domain: mibiao.vercel.app
+domain: 2bi.xyz
 title: 懒人米表
 #donate: 可选, 打赏链接, 完整的可访问链接
 
@@ -58,12 +58,12 @@ contacts:
   - type: QQ
     text: 88888888
   - type: Email
-    text: xxx@xxx.com
-    url: mailto:xxx@xxx.com
+    text: viplink@foxmail.com
+    url: mailto:viplink@foxmail.com
   - type: 微信
     text: wx88888888
 
 # 米表联盟
 links:
-  - url: http://mibiao.vercel.app
+  - url: https://2bi.cc
     description: 懒人米表
