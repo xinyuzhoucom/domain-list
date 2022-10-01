@@ -3,7 +3,7 @@
 # 2、英文 : 后要空一格, domains 和 tips 里的 - 代表分组, 不可省略
 
 domain: 2bi.xyz
-title: 懒人米表
+title: 二逼米表
 #donate: 可选, 打赏链接, 完整的可访问链接
 
 # 对应四种颜色, 尽量选择 #123456 这种样式
@@ -28,16 +28,16 @@ reserved-domains:
 # 出售中
 onsale-domains:
   - domain: vip.kids
-    description: 描述内容
+    description: vip
     price: $888
   - domain: top.kids
-    description: 描述内容
+    description: top
     price: 议价
   - domain: dns.kids
-    description: 描述内容
+    description: dns
     price: ￥666
   - domain: life.kids
-    description: 描述内容
+    description: life
     price: 自定义
 # 已售出
 sold-domains:
@@ -56,14 +56,14 @@ tips:
 # url 可选, 超链接地址
 contacts:
   - type: QQ
-    text: 88888888
+    text: 254081150
   - type: Email
     text: viplink@foxmail.com
     url: mailto:viplink@foxmail.com
   - type: 微信
-    text: wx88888888
+    text: xinyuzhoucom
 
 # 米表联盟
 links:
   - url: https://2bi.cc
-    description: 懒人米表
+    description: 二逼米表
