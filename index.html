@@ -19,7 +19,7 @@
     <div class="main">
         <!-- 展示信息 -->
         <div class="info">
-            <div><img src="./img/favicon.png" alt="logo"></div>
+            <div>2bi.xyz</div>
             <a href="/" class="default" >{{ site.title }}</a>
         </div>
 
@@ -178,56 +178,6 @@
             {%- endfor -%}
         </div>
 
-        <!-- 米表联盟 -->
-        <div class="links">
-            <div class="default">米表联盟</div>
-            <hr>
-            {%- for link in site.links -%}
-            <span class="block">
-                <a href="{{ link.url }}/?utm_source={{ site.domain }}" target="_blank">
-                {%- if site.badge == true -%}
-                    <img src="https://img.shields.io/badge/-{{link.description}}-{{ site.color.default }}">
-                {%- else -%}
-                    {{link.description}}
-                {%- endif -%}
-                </a>
-            </span>
-            {%- if forloop.last != true && site.badge == false -%}&nbsp;&nbsp;{%- endif -%}
-            {%- endfor -%}
-        </div>
-
-        <!-- 底部 -->
-        <div class="footer">
-        {%- if site.badge == true -%}
-            <span class="block">
-                <a href="/">
-                    <img src="https://img.shields.io/badge/版权所有-{{ site.title }}-{{ site.color.default }}">
-                </a>
-            </span>
-            <span class="block">
-                <a href="https://github.com/newbill/domain-list" target="_blank">
-                    <img src="https://img.shields.io/badge/Github-newbill-{{ site.color.default }}">
-                </a>
-            </span>
-            {%- if site.donate -%}
-            <span class="block">
-                <a href="{{ site.donate }}" target="_blank">
-                    <img src="https://img.shields.io/badge/-请我喝一杯咖啡-{{ site.color.default }}">
-                </a>
-            </span>
-            {%- endif -%}
-        {%- else -%}
-            <div class="default">
-                &copy;&nbsp;<a href="/">{{ site.title }}</a>
-                &nbsp;<span style="color: red">❤</span>&nbsp;
-                <a href="https://github.com/newbill/domain-list" target="_blank">米表源码</a>
-                {%- if site.donate -%}
-                &nbsp;<span style="color: red">❤</span>&nbsp;<a href="{{ site.donate }}" target="_blank">请我喝一杯咖啡</a>
-                {%- endif -%}
-            </div>
-        {%- endif -%}
-        </div>
-    </div>
     {%- if site.badge == true -%}
     <script>
         let d = document.getElementsByClassName("default");
